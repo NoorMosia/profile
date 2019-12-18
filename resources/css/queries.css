@@ -1,0 +1,197 @@
+/* for devices with screen smaller than 1200px */
+@media only screen and (max-width:1200px){
+    .main-text {
+        position: absolute;
+        width: 80%;
+        left: 10%;
+    }
+    .row {    width: 99%; }
+    .box {    width: 100%;    }
+    .form { width: 76%;  }
+}
+
+@media only screen and (max-width:1023px){
+    html {  font-size: 18px; }
+    section {     padding: 2rem 0;    }
+    /* skills */
+    .section-skills h3 {    font-size: 1.2rem;  }
+    /* project */
+    h3 {
+        padding: 0;
+        padding-top: 0;
+        font-size: 1.6rem;
+    }
+
+    .project-buttons {    margin-top: 2.8rem;   }
+    .project-desc { 
+        font-size: 0.9rem;
+        font-weight: 300;
+     }
+    /* offers */
+    .price {    padding: .5rem;    }
+    .price-value {    font-size: 2.5rem;    }
+    .ticks-box {    padding: .4rem;    }
+
+    /* about me */
+    .section-contact h2 {    margin-bottom: 1rem;    }
+    .contacts {    padding-top: 1rem;   }
+    .request {    padding: .8rem;   }
+
+    /* form */
+    .form { width: 86%;  }
+
+}
+
+
+@media only screen and (max-width:767px){
+
+    html {  font-size: 16px; }
+    /* HEADER */
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+    .sub-h1 {    font-size: .9rem;    }
+    .icon-small {    margin-right: 1.3rem;   }
+
+    /* SKILLS */
+    .skill-logo li {    
+        margin: 1.2rem;
+        width: 3.3rem; 
+        height: 3.3;
+    }
+    .skill-logo .react-logo img {    margin-top: 0;    }
+
+    /* PROJECTS */
+    .proj .col img {    margin-bottom: 1rem;    }
+
+    .project-buttons {
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .btn-red:link,
+    .btn-red:visited {
+        padding: .5rem 1.5rem;
+        margin-top: 0;
+    }
+
+    .btn-medium {    margin-bottom: 1rem;    }
+    /* OFFERS */
+    .box {
+        width: 86%;
+        border-radius: .3rem;
+        overflow: hidden;
+        margin: 2rem auto;
+    }
+
+    .price {
+        padding: 1rem;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+    }
+
+    .price-value {
+        font-size: 1.5rem;
+        font-weight: 100;
+        margin-top: 0.4rem;
+    }
+
+    .ticks-box {
+        padding: 2rem 1rem;
+        font-size: .8rem;
+    }
+
+    .request {    
+        padding: .8rem;    
+        font-size: .7rem
+    }
+    .btn-medium { width: 100%;}
+
+    /* ABOUT ME */
+    .me-box {
+        width: 10rem;
+        float: none;
+        margin: 0 auto;
+    }
+
+    /* FORM */
+    input, textarea {    margin-bottom: 1rem;    }
+}
+
+@media only screen and (max-width:600px){
+    /* header */
+    h1 {
+        font-size: 1.6rem; 
+        text-align: center;
+    }
+
+    .sub-h1 {    font-size: .8rem;  text-align: center;  }
+    .icon-small {    height: 3rem;   }
+    .media-icons {  margin-left: 0; text-align: center; }
+    .about-text {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .proj {    width: 95%;    }
+
+    .btn-medium {    width: 45%;    }
+
+    .skill-logo img {    
+        width: 3rem; 
+        height: 3rem;   
+    }
+    
+    form .row {   
+        width: 100%;
+    }
+    .span-1-of-2 {    width: 100%;    }
+}
+
+
+@media only screen and (max-width: 450px){
+    h1 {    font-size: 1.2rem; font-weight: 400;    }
+    .icon-small {    
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .media-icons {
+        padding-top: 2.5rem;
+        text-align: center;
+    }
+
+    /* footer */
+    .footer-headings {    display: none;    }
+}
+
+
+@media only screen and (max-width: 330px){
+
+    .btn-medium:link {    padding: .5rem .2rem;    }
+    .surname {      display: none;        }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
